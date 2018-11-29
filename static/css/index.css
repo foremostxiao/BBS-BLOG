@@ -1,0 +1,63 @@
+#user_img{margin-right: 20px;font-size: 18px}
+.pub_info{margin-top: 10px}
+.pub_info .glyphicon-comment{vertical-align: center}
+
+
+
+/* 导航区样式*/
+.navbar-nav>li:visited{ color: #396bb3;}
+.navbar-nav>li:hover{background-color:#396bb3;}
+.navbar-nav>li>a{ color:white;}
+.dropdown-toggle{margin-top: 3px}
+
+
+        /*{#中心区 左侧#}*/
+ul>li{
+	list-style: none;
+}
+.list-content ul:before{ content: ""; height: 15px; display: block;}
+.list-content ul li{ padding: 5px 10px; }
+.list-content  ul li:hover{ background-color: #ff6700;}
+.list-content{background-color: #eef}
+.list-content  ul li span{ float: right; color: blue}
+
+
+/*中心区域 右侧*/
+#search_block {
+margin-top: 10px;
+   background-color: #eef;
+
+}
+.side_search {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+#google_search {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    height: 30px;
+}
+
+
+.sidebar-image {
+    margin-top: 0;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.sidebar-image a{margin-left: 0px}
+
+.ad_right_text {
+    text-align: left;
+    color: #555;
+    padding-top: 0;
+    line-height: 180%;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+.search_btn{margin-left: 20px}
+
+.list-content2{ background-color: #eef;}
+.list-content2 .search_input{width: 260px;margin-left: 10px}

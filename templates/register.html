@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/blog/bootstrap-3.3.7/css/bootstrap.css">
+
+    <style type="text/css">
+        #avatar{display: none}
+        #avatar_img{margin-left: 20px}
+         .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+
+
+   <div class="container">
+       <div class="row">
+
+           <div class="col-md-6 col-md-offset-3">
+            <h3 class="text-primary text-center">注册页面</h3>
+           <hr>
+               <form id="form">
+                   {% csrf_token %}
+                   {% for field in form %}
+                       <div class="form-group">
+                           <label for="{{ field.auto_id }}">{{ field.label }}</label>
+                           {{ field }} <span class="error pull-right"></span>
+                       </div>
+                   {% endfor %}
+{#                    上传头像功能#}
+                   <div class="form-group">
+                       <label for="avatar">
+                           头像
+                           <img id="avatar_img" width="60" height="60" src="/static/img/default.png" alt="">
+                       </label>
+                       <input type="file" id="avatar" name="avatar" >
+                   </div>
+                   <div class="form-group">
+                       <div class="row">
+                           <input type="button" class="btn btn-default reg_btn" value="submit"><span class="error"></span>
+
+                       </div>
+                   </div>
+               </form>
+            </div>
+       </div>
+   </div>
+
+<script type="text/javascript" src="/static/JS/jquery-3.2.1.min.js"></script>
+
+<script type="text/javascript">
+
+
+$('#avatar').change(function () {
+    // 1 获取用户选中的文件对象
+    var file_obj=$(this)[0].files[0];
+
+    // 2 获取文件路径
+    var reader= new FileReader();
+
+    reader.readAsDataURL(file_obj);
+    // 3 修改img的src属性，src=文件对象的路径
+
+    // 等图片文档加载完后才执行,,等上一步读完才执行
+    reader.onload=function(){
+         $('#avatar_img').attr('src',reader.result)
+    }
+});
+
+    // Ajax提交数据
+    {#$('.reg_btn').click(function () {#}
+    {#    var formdata=new FormData();#}
+    {#    formdata.append('user',$('#id_user').val());#}
+    {#    formdata.append('pwd',$('#id_pwd').val());#}
+    {#    formdata.append('re_pwd',$('#id_re_pwd').val());#}
+    {#    formdata.append('email',$('#id_email').val());#}
+    {#    formdata.append('avatar',$('#avatar')[0].files[0]);#}
+    {#    formdata.append('csrfmiddlewaretoken',$("[name='csrfmiddlewaretoken']").val());#}
+ // 基于Ajax提交数据
+
+    $(".reg_btn").click(function () {
+        //console.log($("#form").serializeArray());
+        var formdata = new FormData();
+        var request_data = $("#form").serializeArray();
+        $.each(request_data, function (index, data) {
+            formdata.append(data.name, data.value)
+        });
+
+        formdata.append("avatar", $("#avatar")[0].files[0]);
+
+        $.ajax({
+            url:'',
+            type:'post',
+            contentType:false,
+            processData:false,
+            data:formdata,
+            success:function (data) {
+                console.log(data);
+
+                if(data.user){
+                    // 注册成功
+                    location.href="/login/"
+                }
+                else {
+                     //console.log(data.msg)
+                    // 清空错误信息---先清空所有--移除所有样式
+                    $("span.error").html("");
+                    $(".form-group").removeClass("has-error");
+                    // 再把含有错误的标签 赋值，加样式--达到相应的效果
+                    $.each(data.msg,function (field,error_list) {
+                        console.log(field,error_list);
+                        // 全局错误在视图中取出来
+                        if (field=='__all__'){
+                            $('#id_re_pwd').next().html(error_list[0]).parent().addClass("has-error");
+
+                        }
+
+
+                        //jQuery next() 获得匹配元素集合中每个元素紧邻的同胞元素。
+                        $("#id_"+ field).next().html(error_list[0]);
+                        $("#id_"+ field).parent().addClass("has-error");
+                    })
+                }
+            }
+        })
+    })
+
+</script>
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,1205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aea54b5e-42e1-45e8-bd77-e0c5b44a7de2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../第五模块/CSS/01-css的引入方式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/CSS/02-css的基本选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/CSS/03-小练习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/CSS/04-高级选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/CSS/05-属性选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/CSS/06-伪类选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/CSS/07-伪元素选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/CSS/08-css的继承性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/CSS/09-css层叠性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/CSS/10-盒模型认知.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/CSS/content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/CSS/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/CSS/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/CSS/小米商城首页结构图/1 顶部设计栏.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/CSS/小米商城首页结构图/2 导航栏.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/CSS/小米商城首页结构图/3 内容列表.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/CSS/小米商城首页结构图/4 选购区域.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/CSS/小米商城首页结构图/盒子不设高度.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/HTML/01-HTML的文档结构.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/HTML/02-常用标签一.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/HTML/03-常用标签二.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/HTML/04-标签分类.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/HTML/HTML练习题.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/DOM/01-DOM的概念.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/DOM/02-DOM到底做什么.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/DOM/07-标签值的操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/DOM/08-标签属性的操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/DOM/10.对页面元素的增删改查操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/DOM/3-DOM的标签结构获取.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/DOM/4-绑定事件的方式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/DOM/5-标签的样式属性操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/DOM/6-样式属性样色切换.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/DOM/9-元素显示隐藏的几种情况.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/html/1-第一个js代码.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/html/10-for循环.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/html/11-双层for循环.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/html/12-Array.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/html/13-数组的常用方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/html/14-string常用方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/html/15-Math用法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/html/16-函数的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/html/17-对象的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/html/18-伪数组的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/html/19-Date的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/html/2-变量的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/html/20-JSON.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/html/3-基本的数据类型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/html/4-运算符的特殊情况.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/html/5-数据类型的转换.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/html/6-流程控制.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/html/7-switch语句.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/html/8-while循环.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/html/9-do_while循环.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/JS/基础知识/正则表达式/1-概念.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/BootStrap/08-Bootstrap的插件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/BootStrap/1-css3的@media媒体查询.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/BootStrap/2-第一个BootStrap页面.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/BootStrap/3-栅格系统.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/BootStrap/4-列偏移.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/BootStrap/5-全局的css样式一.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/BootStrap/6-全局的css样式二.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/BootStrap/7-Bootstrap组件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/BootStrap/8-Bootstrap插件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/BootStrap/bootstrap-3.3.7/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/BootStrap/bootstrap-3.3.7/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/BootStrap/bootstrap-3.3.7/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/BootStrap/bootstrap-3.3.7/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/BootStrap/bootstrap-3.3.7/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/BootStrap/bootstrap-3.3.7/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/BootStrap/bootstrap-3.3.7/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/BootStrap/bootstrap-3.3.7/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/BootStrap/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/BootStrap/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/BootStrap/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/BootStrap/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/BootStrap/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/BootStrap/bootstrap-3.3.7/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/BootStrap/bootstrap-3.3.7/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/BootStrap/bootstrap-3.3.7/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/BootStrap/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/1-第一个jquery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/10-选项卡深入.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/11-基本动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/12-卷帘门动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/13-淡入淡出.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/14-自定义动画.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/15-案例下拉菜单.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/16-jquery标签属性的操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/17-DOM对象属性操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/18-对类样式的操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/19-对值的操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/2-入口函数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/20-父子之间插入一.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/21-父子之间插入二.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/22-兄弟之间插入.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/23-替换操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/24-删除操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/25-操作input的value.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/26-jquery的位置信息.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/27-原生js的事件流.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/28-事件冒泡的处理.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/3-jquery对象和js对象的区别.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/31-jQuery单双击事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/32-jQuery的鼠标移入事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/39-和风天气API.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/4-jQuery如何操作DOM.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/40-和风天气-3天情况.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/5-层级选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/6-基本过滤选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/7-属性选择器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/8-筛选选择器方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/9-sibling的用法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/jquery属性操作.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/Jquery&amp;BootStrap/Jquery/对页面元素的增删改查.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/课件/CSS/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/课件/JQ_code/代码/node_modules/32-和风天气.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/课件/JS_code/代码/DOM/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/todolist/imgs/todolist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/todolist/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/todolist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/todolist/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/todolist项目/imgs/todolist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/todolist项目/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/todolist项目/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/todolist项目/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/todolist项目/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/a1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/a2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/a3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/a4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/a5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/a6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/after-sale-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/after-sale-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/after-sale-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/after-sale-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/after-sale-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/after-sale-server.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/center.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/fixed-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/fixed-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/fixed-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/fixed-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/fixed-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/flash1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/flash2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/flash3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/flash4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/flash5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/qualifity-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/qualifity-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/qualifity-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/qualifity-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/qualifity-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/scroll-bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/search1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/search2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/shop1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/小米8青春版.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/小米净水器.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/imgs/红米6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/bootstrap-3.3.7/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/bootstrap-3.3.7/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/bootstrap-3.3.7/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/bootstrap-3.3.7/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/bootstrap-3.3.7/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/bootstrap-3.3.7/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/bootstrap-3.3.7/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/bootstrap-3.3.7/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/bootstrap-3.3.7/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/bootstrap-3.3.7/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/bootstrap-3.3.7/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/images/chouti.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/images/content1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/images/content2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/images/homepage_download.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/images/icon_18_118.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/images/share_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/images/view.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/jQuery/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/jQuery/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第五模块/项目/抽屉新热榜/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/01-web开发/JDclient.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/01-web开发/JDserver.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/01-web开发/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/01-web开发/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/01-web开发/wsgi_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/02-yuan/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/02-yuan/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/02-yuan/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/02-yuan/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/02-yuan/目录规范/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/02-yuan/目录规范/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/02-yuan/目录规范/templates/backend.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/02-yuan/目录规范/templates/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/02-yuan/目录规范/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/02-yuan/目录规范/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/02-yuan/目录规范/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/02-yuan/目录规范/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/ORM/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/ORM2/.idea/ORM2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/ORM2/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/ORM2/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/ORM2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/ORM2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/ORM2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/ORM2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/ORM2/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/ORM2/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/app01/static/bootstrap-3.3.7/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/app01/static/bootstrap-3.3.7/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/app01/static/bootstrap-3.3.7/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/app01/static/bootstrap-3.3.7/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/app01/static/bootstrap-3.3.7/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/app01/static/bootstrap-3.3.7/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/app01/static/bootstrap-3.3.7/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/app01/static/bootstrap-3.3.7/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/app01/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/app01/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/app01/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/app01/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/app01/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/app01/static/bootstrap-3.3.7/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/app01/static/bootstrap-3.3.7/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/app01/static/bootstrap-3.3.7/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/templates/addauthor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/templates/addbook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/templates/addpublisher.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/templates/author.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/templates/author_book.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/templates/book.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/templates/editauthor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/templates/editbook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/templates/editpublisher.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/templates/publisher.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/book_admin/templates/publisher_book.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/bookms/app01/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/bookms/templates/addbook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/bookms/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/bookms/templates/books.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/bookms/templates/changebook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/bookms2/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/fisrt_pro/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/fisrt_pro/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/fisrt_pro/templates/timer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/sec_pro/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/sec_pro/app01/urlconvert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/sec_pro/app01/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/sec_pro/app02/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/sec_pro/app02/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/sec_pro/app02/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/sec_pro/app02/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/sec_pro/app02/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/sec_pro/app02/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/sec_pro/app02/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/sec_pro/app02/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/sec_pro/static/app01/timer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/sec_pro/static/app01/timer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/sec_pro/static/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/sec_pro/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/sec_pro/templates/timer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/templates_demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/templates_demo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/templates_demo/.idea/templates_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/templates_demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/templates_demo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/templates_demo/app01/templatetags/my_tag_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/templates_demo/templates/ads.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/templates_demo/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/templates_demo/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/templates_demo/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/templates_demo/templates/orders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/views_demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/views_demo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/views_demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/views_demo/.idea/views_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/views_demo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1-Django基础/views_demo/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax_demo/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax_demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax_demo/templates/file_put.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ajax_demo/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/.idea/bookms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/app01/static/bootstrap-3.3.7/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/app01/static/bootstrap-3.3.7/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/app01/static/bootstrap-3.3.7/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/app01/static/bootstrap-3.3.7/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/app01/static/bootstrap-3.3.7/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/app01/static/bootstrap-3.3.7/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/app01/static/bootstrap-3.3.7/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/app01/static/bootstrap-3.3.7/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/app01/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/app01/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/app01/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/app01/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/app01/static/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/app01/static/bootstrap-3.3.7/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/app01/static/bootstrap-3.3.7/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/app01/static/bootstrap-3.3.7/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/templates/addauthor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/templates/addbook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/templates/addpublisher.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/templates/author.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/templates/author_book.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/templates/book.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/templates/editauthor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/templates/editbook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/templates/editpublisher.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/templates/jquery-3.3.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/templates/publisher.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/templates/publisher_book.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bookms/templates/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../formsdemo/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../formsdemo/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../formsdemo/.idea/formsdemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../formsdemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../formsdemo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../formsdemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../formsdemo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../formsdemo/templates/reg.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pageDemo/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pageDemo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pageDemo/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第四模块/MySQL数据库/2 pysql模块之注入问题.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第四模块/MySQL数据库/3 pymysql 增删改查.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第四模块/MySQL数据库/4 存储过程的执行.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第四模块/MySQL数据库/mysql总结" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第四模块/MySQL数据库/pysql模块之sql基本使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第四模块/MySQL数据库/readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第四模块/MySQL数据库/readme2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第四模块/MySQL数据库/总结练习-编程题7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第四模块/mysql作业/0 readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第四模块/mysql作业/1 建立表格" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第四模块/mysql作业/2 准备数据" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第四模块/mysql作业/3 查询语法" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第四模块/并发编程/单元练习题/练习/1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第四模块/并发编程/单元练习题/练习/2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第四模块/并发编程/单元练习题/练习/3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第四模块/并发编程/单元练习题/练习/4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第四模块/并发编程/单元练习题/练习/5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第四模块/并发编程/单元练习题/练习/6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第四模块/并发编程/单元练习题/练习/7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../第四模块/并发编程/单元练习题/请使用协程写一个消费者生产者模型；.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../练习/第二模块/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../练习/第二模块/第二模块.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../考核/第四模块/mysql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第四模块/并发编程/multiprocess-ftp/client/download/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../../第五模块/课件/CSS/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第四模块/并发编程/multiprocess-ftp/client/download/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第四模块/并发编程/multiprocess-ftp/client/upload/FTP闯关作业.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第四模块/并发编程/multiprocess-ftp/readme" beforeDir="false" afterPath="$PROJECT_DIR$/../../第四模块/并发编程/multiprocess-ftp/readme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第四模块/并发编程/multiprocess-ftp/server/core/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../第四模块/并发编程/multiprocess-ftp/server/core/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../第四模块/并发编程/multiprocess-ftp/server/home/alex/FTP闯关作业.zip" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/cnblog$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1543246629143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/static/JS" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cnblog@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-855171399">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.35" value="2" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.67" value="1" />
+          <entry key="project.open.time.74" value="1" />
+          <entry key="project.opened" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="blog_article" value="11" />
+          <entry key="blog_article2tag" value="1" />
+          <entry key="blog_articleupdown" value="2" />
+          <entry key="blog_blog" value="1" />
+          <entry key="blog_category" value="2" />
+          <entry key="blog_comment" value="3" />
+          <entry key="blog_tag" value="1" />
+          <entry key="blog_userinfo" value="18" />
+          <entry key="css" value="19" />
+          <entry key="django_session" value="3" />
+          <entry key="gif" value="3" />
+          <entry key="html" value="75" />
+          <entry key="jpg" value="1" />
+          <entry key="js" value="6" />
+          <entry key="png" value="10" />
+          <entry key="py" value="80" />
+          <entry key="sql" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="19" />
+          <entry key="Database Element" value="42" />
+          <entry key="HTML" value="75" />
+          <entry key="Image" value="14" />
+          <entry key="JavaScript" value="6" />
+          <entry key="Python" value="80" />
+          <entry key="Scratch" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cell" value="35" />
+          <entry key="css" value="211" />
+          <entry key="html" value="5398" />
+          <entry key="py" value="6497" />
+          <entry key="txt" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="211" />
+          <entry key="HTML" value="5398" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Python" value="6497" />
+          <entry key="Scratch" value="35" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="311" column="63" selection-start-line="311" selection-start-column="63" selection-end-line="311" selection-end-column="63" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#1792#3025#0" />
+                <marker date="1543455049813" expanded="true" signature="2971:2976" ph="..." />
+                <marker date="1543455049813" expanded="true" signature="3080:3085" ph="..." />
+                <marker date="1543455049813" expanded="false" signature="7429:7434" ph="..." />
+                <marker date="1543455049813" expanded="false" signature="8268:8269" ph="..." />
+                <marker date="1543455049813" expanded="true" signature="9876:9881" ph="..." />
+                <marker date="1543455049813" expanded="true" signature="10131:10132" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cnblog/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="40" />
+              <folding>
+                <element signature="e#630#662#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1430">
+              <caret line="68" column="17" lean-forward="true" selection-start-line="67" selection-start-column="3" selection-end-line="71" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/backend/backend.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/article_detail.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/article_detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-616">
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/backend/add_article.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="24" column="70" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cnblog/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3102">
+              <caret line="141" selection-start-line="141" selection-end-line="141" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cnblog/__init__.py" />
+        <option value="$PROJECT_DIR$/new_templates/register.html" />
+        <option value="$PROJECT_DIR$/blog/Myforms.py" />
+        <option value="$PROJECT_DIR$/blog/models.py" />
+        <option value="$PROJECT_DIR$/blog/utils/validCode.py" />
+        <option value="$PROJECT_DIR$/blog/admin.py" />
+        <option value="$PROJECT_DIR$/templates/not_found.html" />
+        <option value="$PROJECT_DIR$/blog/templatetages/my_tags.py" />
+        <option value="$PROJECT_DIR$/../课件5/04 博客系统相关代码/cnblog/blog/templatetags/my_tags.py" />
+        <option value="$PROJECT_DIR$/new_templates/base.html" />
+        <option value="$PROJECT_DIR$/new_templates/article_detail.html" />
+        <option value="$PROJECT_DIR$/templates/classification.html" />
+        <option value="$PROJECT_DIR$/blog/templatetags/my_tags.py" />
+        <option value="$PROJECT_DIR$/static/blog/css/article_detail.css" />
+        <option value="$PROJECT_DIR$/static/css/article_detail.css" />
+        <option value="$PROJECT_DIR$/cnblog/settings.py" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/templates/register.html" />
+        <option value="$PROJECT_DIR$/static/css/index.css.html" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/test.html" />
+        <option value="$PROJECT_DIR$/templates/home_site.html" />
+        <option value="$PROJECT_DIR$/static/JS/calendar.js" />
+        <option value="$PROJECT_DIR$/static/css/calendar.css" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/backend/backend.html" />
+        <option value="$PROJECT_DIR$/templates/backend/base.html" />
+        <option value="$PROJECT_DIR$/templates/backend/edit_article.html" />
+        <option value="$PROJECT_DIR$/static/css/index.css" />
+        <option value="$PROJECT_DIR$/templates/backend/add_article.html" />
+        <option value="$PROJECT_DIR$/static/JS/__init__.py" />
+        <option value="$PROJECT_DIR$/templates/article_detail.html" />
+        <option value="$PROJECT_DIR$/blog/views.py" />
+        <option value="$PROJECT_DIR$/cnblog/urls.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="916" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cnblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cnblog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cnblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cnblog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cnblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cnblog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="templatetags" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cnblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cnblog" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cnblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cnblog" type="462c0819:PsiDirectoryNode" />
+              <item name="cnblog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cnblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cnblog" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cnblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cnblog" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="add_article" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cnblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cnblog" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="avatars" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cnblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cnblog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cnblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cnblog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cnblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cnblog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cnblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cnblog" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="JS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cnblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cnblog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cnblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cnblog" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last.edited.regexp" value="Sample Text" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PyCharm\luffy\第六模块\cnblog\static\css" />
+      <recent name="D:\PyCharm\luffy\第六模块\cnblog\static\JS" />
+      <recent name="D:\PyCharm\luffy\第六模块\cnblog\static\img" />
+      <recent name="D:\PyCharm\luffy\第六模块\cnblog\media\avatars" />
+      <recent name="D:\PyCharm\luffy\第六模块\cnblog\blog\templatetags" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PyCharm\luffy\第六模块\cnblog\static\css" />
+      <recent name="D:\PyCharm\luffy\第六模块\cnblog\static\blog" />
+      <recent name="D:\PyCharm\luffy\第六模块\cnblog\static\img" />
+      <recent name="D:\PyCharm\luffy\第六模块\cnblog\static" />
+      <recent name="D:\PyCharm\luffy\第六模块\cnblog\media\avatars" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Django server.cnblog">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="cnblog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/static/JS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/static/JS/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cnblog" type="Python.DjangoServer" factoryName="Django server">
+      <module name="cnblog" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="cnblog.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.cnblog" />
+      <item itemvalue="Python.__init__" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.__init__" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aea54b5e-42e1-45e8-bd77-e0c5b44a7de2" name="Default Changelist" comment="" />
+      <created>1542690226658</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542690226658</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49846625" visible="true" weight="0.17918456" />
+      <window_info id="Structure" order="1" sideWeight="0.50153375" side_tool="true" weight="0.13787554" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946353" visible="true" weight="0.26807564" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933258" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32925472" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.22803114" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.32925472" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.17575084" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50107294" side_tool="true" weight="0.3047831" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.3299356" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.17006437" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49846625" visible="true" weight="0.17274678" />
+      <window_info id="Structure" order="1" sideWeight="0.50153375" side_tool="true" weight="0.13787554" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946353" visible="true" weight="0.3047831" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.22803114" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.17575084" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50107294" side_tool="true" weight="0.3047831" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.17006437" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/static/font/downdown.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/font/upup.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/../课件5/04 博客系统相关代码/cnblog/cnblog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="46" column="53" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_templates/article_detail.html" />
+    <entry file="das://e44776e5-6840-4353-bf9c-6c10ad382e11/schema/cnblog/table/blog_articleupdown">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/home_site.css" />
+    <entry file="file://$PROJECT_DIR$/blog/templatetags/classification.html" />
+    <entry file="file://$PROJECT_DIR$/static/blog/bootstrap-3.3.7/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1188" />
+      </provider>
+    </entry>
+    <entry file="das://e44776e5-6840-4353-bf9c-6c10ad382e11/schema/cnblog/table/blog_userinfo">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/classification.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="10" selection-start-line="1" selection-start-column="3" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/add_article/67153e57d30d5074cfa20baf7913de05_t01fa5459c051a11b82.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../课件5/cnblog-master/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../第五模块/项目/小米商城官网首页(静态页面)/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/logo_small.gif" />
+    <entry file="file://$PROJECT_DIR$/static/img/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/index.css.html" />
+    <entry file="file://$PROJECT_DIR$/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/JS/calendar.js" />
+    <entry file="file://$PROJECT_DIR$/static/css/calendar.css" />
+    <entry file="file://$PROJECT_DIR$/static/css/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/not_found.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/backend/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="81" column="18" lean-forward="true" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/backend.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://e44776e5-6840-4353-bf9c-6c10ad382e11/schema/cnblog/table/blog_comment">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e44776e5-6840-4353-bf9c-6c10ad382e11/schema/cnblog/table/blog_article">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/backend/edit_article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home_site.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/JS/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/contrib/auth/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3630">
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnblog/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/utils/validCode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1716">
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/contrib/auth/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="37" column="4" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templatetags/my_tags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1430">
+          <caret line="68" column="17" lean-forward="true" selection-start-line="67" selection-start-column="3" selection-end-line="71" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/article_detail.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnblog/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3102">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/Myforms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#7#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/backend/backend.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="13" column="48" lean-forward="true" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/article_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-616">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/backend/add_article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="70" selection-start-line="24" selection-start-column="70" selection-end-line="24" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="311" column="63" selection-start-line="311" selection-start-column="63" selection-end-line="311" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#1792#3025#0" />
+            <marker date="1543455049813" expanded="true" signature="2971:2976" ph="..." />
+            <marker date="1543455049813" expanded="true" signature="3080:3085" ph="..." />
+            <marker date="1543455049813" expanded="false" signature="7429:7434" ph="..." />
+            <marker date="1543455049813" expanded="false" signature="8268:8269" ph="..." />
+            <marker date="1543455049813" expanded="true" signature="9876:9881" ph="..." />
+            <marker date="1543455049813" expanded="true" signature="10131:10132" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cnblog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="40" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

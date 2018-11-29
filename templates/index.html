@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/blog/bootstrap-3.3.7/css/bootstrap.css">
+    <link rel="stylesheet" href="/static/css/index.css">
+     <script src="/static/JS/jquery-3.2.1.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="/static/blog/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+{#{{ request.user }}#}
+{#<h3>this is my index</h3>#}
+  <script type="text/javascript">
+    $(function () {
+        $('.navbar-nav li ').click(function () {
+        //添加类名addclass、siblings查找所有兄弟元素---不包括自己
+        $(this).addClass('active').siblings('li').removeClass('active');
+    });
+    })
+
+</script>
+
+<nav class="navbar navbar-default ">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">博客园</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">随笔 <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">新闻</a></li>
+                <li><a href="#">博文</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                {% if request.user.is_authenticated %}
+                    <li><a href="#"><span id="user_img" class="glyphicon glyphicon-user"></span>{{ request.user }}</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">设置<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">修改密码</a></li>
+                            <li><a href="#">修改头像</a></li>
+                            <li><a href="/logout/">注销</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+                {% else %}
+                    <li><a href="/login/">登录</a></li>
+                    <li><a href="/register/">注册</a></li>
+                {% endif %}
+
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="panel panel-info">
+                <div class="panel-heading">网站分类</div>
+                    <div class="list-content">
+                        <ul>
+                            <li><a href="#">.NET技术</a><span>&gt;</span></li>
+                            <li><a href="#">编程语言</a><span>&gt;</span></li>
+                            <li><a href="#">软件设计</a><span>&gt;</span></li>
+                            <li><a href="#">WEB前端</a><span>&gt;</span></li>
+                            <li><a href="#">企业信息化</a><span>&gt;</span></li>
+                            <li><a href="#">手机开发</a><span>&gt;</span></li>
+                            <li><a href="#">软件工程</a><span>&gt;</span></li>
+                            <li><a href="#">数据库技术</a><span>&gt;</span></li>
+                            <li><a href="#">操作系统</a><span>&gt;</span></li>
+                            <li><a href="#">其它分类</a><span>&gt;</span></li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="panel panel-warning">
+                <div class="panel-heading">链接</div>
+                <div class="list-content">
+                    <ul>
+                        <li><a href="#">反馈或意见</a><span>&gt;</span></li>
+                        <li><a href="#">官方博客</a><span>&gt;</span></li>
+                        <li><a href="#">博客模版</a><span>&gt;</span></li>
+                        <li><a href="#">Java博客</a><span>&gt;</span></li>
+                        <li><a href="#">C++博客</a><span>&gt;</span></li>
+                        <li><a href="#">手机版</a><span>&gt;</span></li>
+                    </ul>
+                </div>
+            </div>
+             <div class="panel panel-danger">
+                <div class="panel-heading">推荐博客排行</div>
+                <div class="list-content">
+                    <ul>
+                        <li><a href="#">1.Alex</a><span>&gt;</span></li>
+                        <li><a href="#">2.路过秋天</a><span>&gt;</span></li>
+                        <li><a href="#">3.小坦克</a><span>&gt;</span></li>
+                        <li><a href="#">4.一线码农</a><span>&gt;</span></li>
+                        <li><a href="#">5.valdd</a><span>&gt;</span></li>
+                        <li><a href="#">6.张司徒</a><span>&gt;</span></li>
+                        <li><a href="#">7.司马懿</a><span>&gt;</span></li>
+                        <li><a href="#">8.诸葛亮</a><span>&gt;</span></li>
+                        <li><a href="#">9.徐煜</a><span>&gt;</span></li>
+                        <li><a href="#">10.老村长</a><span>&gt;</span></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-6">
+{#            文章样式#}
+            <div class="article_list">
+                {% for article in article_list %}
+                    <div class="article-item small">
+                        <h5><a href="/{{ article.user.username }}/articles/{{ article.pk }}">{{ article.title }}</a>
+                        </h5>
+                        <div class="article-desc">
+                        <span class="media-left">
+                            <a href="/{{ article.user.username }}/"><img width="56" height="56"
+                                                                         src="media/{{ article.user.avatar }}"
+                                                                         alt=""></a>
+                        </span>
+                            <span class="media-right">
+{#                                文章摘要#}
+                            {{ article.desc|safe }}
+                        </span>
+                        </div>
+                        <div class="small pub_info">
+                            <span><a href="/{{ article.user.username }}/">{{ article.user.username }}</a></span> &nbsp;&nbsp;&nbsp;
+                            <span>发布于 &nbsp;&nbsp;{{ article.create_time|date:"Y-m-d H:i" }}</span>&nbsp;&nbsp;
+{#                            对应图表#}
+                            <span class="glyphicon glyphicon-comment"></span>评论({{ article.comment_count }})&nbsp;&nbsp;
+                            <span class="glyphicon glyphicon-thumbs-up"></span>点赞({{ article.up_count }})&nbsp;&nbsp;
+                        </div>
+                    </div>
+                    <hr>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="panel panel-success" >
+                <div class="panel-heading">查询</div>
+                <div id="search_block" class="list-content2">
+                    <div class="side_search">
+                        <input type="text" id="zzk_q" class="search_input"
+                               tabindex="3"><input onclick="zzk_go()" type="button" class="search_btn" value="找找看" >
+                    </div>
+                    <div id="google_search" class="side_search">
+                        <input type="text" id="google_search_q" class="search_input"
+                               ><input type="button" value="Google" class="search_btn" >
+                    </div>
+                </div>
+
+            </div>
+            <div class="panel panel-danger" >
+                <div class="panel-heading">Panel heading without title</div>
+                <div class="list-content2">
+                    <div id="cnblogs_b1" class="sidebar-image "><a
+                            href="https://cloud.tencent.com/act/pro/safe?fromSource=gwzcw.1559145.1559145.1559145"
+                            target="_blank"><img width="360" height="250" src="/static/img/Tencent.jpg" alt="腾讯云B1"
+                                                 onclick="ga('send', 'event', 'Link', 'click', 'B1');"></a>
+                    </div>
+                    <div id="ad_right_text" class="ad_right_text">
+                        <ul>
+                            <li>
+                                <a href="https://cloud.tencent.com/act/special/rav?fromSource=gwzcw.1351352.1351352.1351352"
+                                   target="_blank"
+                                   onclick="ga('send', 'event', 'Link', 'click', 'T1-视频')">【推荐】1元体验视频通话10000分钟</a></li>
+                            <li><a href="http://www.hightopo.com/cn-index.html" target="_blank"
+                                   onclick="ga('send', 'event', 'Link', 'click', 'T1-T1-HT')">【推荐】HTML5拓扑3D机房，电力工控Web
+                                SCADA</a>
+                            </li>
+                            <li><a href="http://clickc.admaster.com.cn/c/a113612,b2812965,c1705,i0,m101,8a1,8b2,h"
+                                   target="_blank" onclick="ga('send', 'event', 'Link', 'click', 'T1-华为云补量')">【福利】免费试用华为云4核8G云服务器</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">Panel heading without title</div>
+                <div id="side_right_block" class="list-content2" >
+                    <div class="w_r">
+                        <h4><a href="https://news.cnblogs.com/">最新新闻</a><span class="more"><a
+                                href="https://news.cnblogs.com/" class="right_more">»</a></span></h4>
+                        <ul>
+                            <li><a href="https://news.cnblogs.com/n/613196/" target="_blank"
+                                   onmouseover="set_a_title(this);">赌徒金立：一年之内，它如何一步步走向崩溃？</a></li>
+                            <li><a href="https://news.cnblogs.com/n/613195/" target="_blank"
+                                   onmouseover="set_a_title(this);">任正非全家福首次曝光：小女儿入选国际名媛热心慈善</a></li>
+                            <li><a href="https://news.cnblogs.com/n/613194/" target="_blank"
+                                   onmouseover="set_a_title(this);">Alexa又添新技能：用纯正的播音员声音读新闻</a></li>
+                            <li><a href="https://news.cnblogs.com/n/613193/" target="_blank"
+                                   onmouseover="set_a_title(this);">苹果本周将前往美国高等法院 捍卫应用商店提成30%权利</a></li>
+                        </ul>
+                    </div>
+                    <div class="w_r">
+                        <h4><a href="/aggsite/topviews">48小时阅读排行</a><span class="more"><a href="/aggsite/topviews"
+                                                                                          class="right_more">»</a></span>
+                        </h4>
+                        <ul>
+                            <li><a href="https://www.cnblogs.com/yswenli/p/6274526.html" target="_blank"
+                                   onmouseover="set_a_title(this);">GFF高仿QQ客户端及服务器</a></li>
+                            <li><a href="https://www.cnblogs.com/mozi-song/p/10011186.html" target="_blank"
+                                   onmouseover="set_a_title(this);">“完美工作”是什么样子</a></li>
+                            <li><a href="https://www.cnblogs.com/JavaArchitect/p/10011253.html" target="_blank"
+                                   onmouseover="set_a_title(this);">最近面试java后端开发的感受：如果就以平时项目经验来面试，通过估计很难——再论面试前的准备</a>
+                            </li>
+                            <li><a href="https://www.cnblogs.com/yilezhu/p/10014027.html" target="_blank"
+                                   onmouseover="set_a_title(this);">.NET Core实战项目之CMS 第四章 入门篇-Git的快速入门及实战演练</a></li>
+                            <li><a href="https://www.cnblogs.com/xll1025/p/10016353.html" target="_blank"
+                                   onmouseover="set_a_title(this);">Java工程师必备书单</a></li>
+                            <li><a href="https://www.cnblogs.com/youcong/p/10016594.html" target="_blank"
+                                   onmouseover="set_a_title(this);">谈谈在创业公司的几点感触</a></li>
+                            <li><a href="https://www.cnblogs.com/Andre/p/10012329.html" target="_blank"
+                                   onmouseover="set_a_title(this);">ASP.NET Core2基于RabbitMQ对Web前端实现推送功能</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

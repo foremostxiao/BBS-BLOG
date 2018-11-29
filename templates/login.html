@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/static/blog/bootstrap-3.3.7/css/bootstrap.css">
+
+
+</head>
+<body>
+
+
+
+   <div class="container">
+       <div class="row">
+           <div class="col-md-6 col-md-offset-3">
+               <form>
+                   {% csrf_token %}
+
+                       <h3 class="text-primary text-center">登录页面</h3>
+                       <div class="form-group   ">
+                           <label for="username">username</label>
+                           <input type="text" class="form-control " placeholder="username" id="username">
+                       </div>
+                       <div class="form-group ">
+                           <label for="password">Password</label>
+                           <input type="password" class="form-control " id="password" placeholder="Password">
+                       </div>
+                        <div class="form-group">
+                            <label for="id_valid_code_str">验证码</label>
+                            <div class="row ">
+                                <div class="col-md-6">
+                                    <input type="text" id="id_valid_code_str" class="form-control">
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="/get_validCode_img/"  id="id_valid_code_img" width="270" height="34" title="验证码" alt="">
+                                </div>
+                            </div>
+                         </div>
+                       <div class="form-group">
+                           <div class="row">
+                               <div class="col-md-6">
+                                   <input type="button" class="btn btn-default login-btn pull-left" value="登录"><span
+                                       class="error"></span>
+                               </div>
+                               <div class="col-md-6">
+                                   <a href="/register/" class="btn btn-success pull-right">注册</a>
+                               </div>
+                           </div>
+                       </div>
+               </form>
+            </div>
+       </div>
+
+   </div>
+
+<script type="text/javascript" src="/static/JS/jquery-3.2.1.min.js"></script>
+
+<script type="text/javascript">
+  //刷新验证码
+    $(function () {
+        $("#id_valid_code_img").click(function () {
+            $(this)[0].src+="?"
+        })
+    });
+
+
+    // 登录验证
+    $('.login-btn').click(function () {
+        $.ajax(
+            {
+                url:'',
+               type:'post',
+               data:{user:$('#username').val(),pwd:$('#password').val(),valid_code:$('#id_valid_code_str').val(),
+{#                   {% csrf_token %}#}
+               csrfmiddlewaretoken:$("[name='csrfmiddlewaretoken']").val()},
+
+                success:function (data) {
+                    console.log(data);
+                    if(data.user){
+                        location.href='/index'
+                    }
+                    else {
+                        $('.error').text(data.msg).css({'color':'red','margin-left':'10px'})
+                        setTimeout(function () {
+                            $('.error').text('')
+                        },1000)
+                    }
+                }
+            })
+
+    })
+</script>
+
+
+</body>
+
+
+</html>

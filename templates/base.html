@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0
+        }
+
+        .header {
+            width: 100%;
+            height: 60px;
+            background-color: #369
+        }
+
+        .header .title {
+            font-size: 18px;
+            font-weight: 100;
+            line-height: 60px;
+            color: white;
+            margin-left: 15px
+        }
+
+        .backend {
+            float: right;
+            margin-right: 15px;
+            color: white;
+            text-decoration: none;
+        }
+
+
+.article_info .title{
+   margin-bottom: 100px;
+}
+
+        {% block css %}
+
+        {% endblock %}
+    </style>
+
+    <link rel="stylesheet" href="/static/blog/bootstrap-3.3.7/css/bootstrap.css">
+
+{#    在base引入home_site 和 article_datail的样式#}
+    <link rel="stylesheet" href="/static/css/article_detail.css" >
+    <link rel="stylesheet" href="/static/css/home_site.css" >
+    <script src="/static/JS/jquery-3.2.1.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="/static/blog/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+{#    <link rel="stylesheet" href="/static/css/calendar.css">#}
+    <script src="/static/JS/calendar.js"></script>
+
+
+</head>
+<body>
+<div class="header navbar ">
+    <div class="content">
+        <p class="title">
+            <span>{{ blog.title }}</span>
+            <a href="/cn_backend/" class="backend">管理</a>
+        </p>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+
+            <div class="panel panel-warning">
+                <div class="panel-heading">我的标签</div>
+                <div class="panel-body">
+                    {% for tag in tag_list %}
+                        <p><a href="/{{ username }}/tag/{{ tag.0 }}">{{ tag.0 }}({{ tag.1 }})</a></p>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="panel panel-danger">
+                <div class="panel-heading">随笔分类</div>
+                <div class="panel-body">
+                    {% for cate in cate_list %}
+                        <p><a href="/{{ username }}/category/{{ cate.0 }}">{{ cate.0 }}({{ cate.1 }})</a></p>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="panel panel-success">
+                <div class="panel-heading">随笔归档</div>
+                <div class="panel-body">
+                    {% for date in date_list %}
+                        <p><a href="/{{ username }}/archive/{{ date.0 }}">{{ date.0 }}({{ date.1 }})</a></p>
+                    {% endfor %}
+                </div>
+            </div>
+
+        </div>
+        <div class="col-md-9">
+           {% block  content %}
+
+            {% endblock %}
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
